@@ -21,3 +21,7 @@ git clone https://github.com/LineageOS/android_hardware_xiaomi.git -b lineage-20
 # Clone Miuicamera
 echo -e "${color}Setup Miuicamera ${end}"
 git clone https://gitlab.com/ThankYouMario/proprietary_vendor_xiaomi_camera.git -b uvite-sm6225 vendor/xiaomi/camera/
+
+# Clone BCR
+echo -e "${color}Setup BCR ${end}"
+git clone https://github.com/Chaitanyakm/vendor_bcr.git vendor/bcr
